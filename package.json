@@ -1,6 +1,6 @@
 {
   "name": "secure-password-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You Can Generate Password By using this Package",
   "main": "index.js",
   "scripts": {
