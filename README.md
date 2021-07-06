@@ -1,17 +1,17 @@
-## Array to String Convertion
-Any string that contains unique identifier to seperate you can make array of this string by using this package
+## Secure Password Generator
+You Can Generate Password By using this Package
 
 ### Installation
-npm i string-to-array-convert
+npm i secure-password-pro
 
 ## Usage
 
 ```nodejs
-const { convertToArray } = require('string-to-array-convert')
-const string = "JavaScript split method can be used to split number into array. But split method only splits string, so first you need to convert Number to String. Then you can use the split method with a combination of map method to transform each letter to Number.";
-const seperator = ' ';
-const except = ''; // Optional
-const data = convertToArray(seperator, string, except)
+const { generatePassword } = require('secure-password-pro')
+const length = 10; // Optional
+const number = true; // Optional
+const symbol = true; // Optional
+const data = generatePassword(length, number, symbol)
 console.log(data)
 ```
 ## Contributing
