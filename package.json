@@ -1,6 +1,6 @@
 {
   "name": "secure-password-pro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "You Can Generate Password By using this Package",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevMafee/array-to-string.git"
+    "url": "git+https://github.com/DevMafee/secure-password-pro.git"
   },
   "keywords": [
     "Random Password",
@@ -19,7 +19,7 @@
   "author": "Salman Sajib",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DevMafee/array-to-string/issues"
+    "url": "https://github.com/DevMafee/secure-password-pro/issues"
   },
-  "homepage": "https://github.com/DevMafee/array-to-string#readme"
+  "homepage": "https://github.com/DevMafee/secure-password-pro#readme"
 }
