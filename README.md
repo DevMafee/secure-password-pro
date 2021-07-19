@@ -14,6 +14,8 @@ const symbol = true; // Optional
 const data = generatePassword(length, number, symbol)
 console.log(data)
 ```
+## NOTE
+Standard length is 8, If you provide length<8 then it will be 8 By default. Thanks.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

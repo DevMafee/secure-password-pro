@@ -16,7 +16,7 @@ function generatePassword(length=8, number=false, symbol=false) {
     if(!number && !symbol){
         var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     }
-    
+    length = length<8?8:length
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {
         returnPassword += characters.charAt(Math.floor(Math.random() * charactersLength));
